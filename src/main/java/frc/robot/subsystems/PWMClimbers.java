@@ -27,7 +27,7 @@ public class PWMClimbers extends SubsystemBase {
   }
 
   //Method to control the climbers using tank drive.
-  public void m_Climbers(double left, double right) {
-    m_Climbers.tankDrive(left, right);
+  public void tankDrive(double speed) {
+    m_Climbers.tankDrive(speed, speed);
   }
 }
