@@ -79,7 +79,7 @@ public class RobotContainer {
         new RunCommand(
             () ->
                 m_Climbers.tankDrive(
-                    -m_operatorController.getLeftY(), -m_operatorController.getRightX()),
+                    -m_operatorController.getLeftY(), -m_operatorController.getRightY()),
             m_Climbers));
   }
 
